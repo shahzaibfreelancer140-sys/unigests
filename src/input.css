@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Floating WhatsApp Button */
+  .whatsapp-float {
+    background-color: #25D366;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+
+.whatsapp-float img {
+    width: 40px;
+    height: 40px;
+}
+
+
+@font-face {
+  font-family: Poppins;
+  src: url(/build/assets/fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: Poppins;
+}
+
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  animation: scrollSlider 60s linear infinite;
+}
+
+.slider>div {
+  flex-shrink: 0;
+}
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    /* Move exactly one full slider width to the left */
+    transform: translateX(calc(-100% + 100vw));
+  }
+}
