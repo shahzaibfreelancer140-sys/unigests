@@ -3,21 +3,21 @@
     <div class="flex justify-between items-center 2xl:px-36 lg:px-10 px-5 py-4">
       <!-- Logo -->
       <div><a href="./index.php">
-                <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-48 lg:w-46 w-24" alt=""></a>
+               <img src="./assets/img/Logo Unigesta Vectorisé[1].png" class="2xl:w-[200px] lg:w-[185px] w-28" alt=""></a>
       </div>
 
       <!-- Desktop Menu (lg and above) -->
       <ul class="hidden lg:flex gap-11">
-        <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+        <li class="text-[#333333] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
             href="./index.php">Home</a></li>
-        <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+        <li class="text-[#333333] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
             href="./service.php">Our Services</a></li>
-        <li class="text-[#657381] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
+        <li class="text-[#333333] 2xl:text-base lg:text-base text-lg leading-5 font-normal"><a
             href="./contact.php">Contact Us</a></li>
       </ul>
   
     <div class="relative flex gap-3 top-2">
-  <!-- Language + Login -->
+  <!-- Language + Login --> 
     <div class="items-center hidden lg:block ">
       <div class="relative inline-block text-left">
         <div class="relative inline-block text-left top-1">
@@ -66,12 +66,14 @@
      
     </div>
  <!-- Desktop Button (lg and above) -->
+<a href="tel:+41228090315">
       <div class="hidden lg:block bg-[#D7B242] rounded-md py-2 px-4">
         
-                       <a href="tel:+41228090315" class="2xl:text-base text-xs leading-5 font-normal">
+                       <span class="2xl:text-base text-xs leading-5 font-normal text-[#333333]">
   +41 22 809 03 15
-</a>
+        </span>
       </div>
+      </a>
     </div>
      
       <!-- Mobile + MD Toggle -->
@@ -96,18 +98,20 @@
       <!-- Mobile/MD Menu -->
       <ul id="mobile-menu"
           class="absolute top-[72px] left-0 right-0 w-full bg-white shadow-lg hidden z-50 px-5 py-7 text-center">
-          <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+          <li class="text-[#333333] text-xs leading-5 font-normal py-2">
             <a href="./index.php" class="block">Accueil</a>
           </li>
-          <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+          <li class="text-[#333333] text-xs leading-5 font-normal py-2">
             <a href="./service.php" class="block">Nos services</a>
           </li>
-          <li class="text-[#657381] text-xs leading-5 font-normal py-2">
+          <li class="text-[#333333] text-xs leading-5 font-normal py-2">
             <a href="./contact.php" class="block">Contactez-nous</a>
           </li>
+          <a href="tel:+41228090315">
           <li class="bg-[#D7B242] rounded-md my-2 text-center">
-            <a href="tel:+41228090315"> <button class="text-xs leading-5 font-normal w-full py-1">022 809 03 10</button></a>
+            <span  class="text-xs leading-5 font-normal w-full py-1 text-[#333333]">022 809 03 10</span>
           </li>
+          </a>
         </ul>
     </div>
   </nav>

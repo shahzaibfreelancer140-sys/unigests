@@ -5,12 +5,12 @@
 
     <!-- section  Protection des données -->
     <section>
-        <div class="2xl:px-36 lg:px-10 px-5 2xl:py-20 py-10">
+        <div class="2xl:px-36 lg:px-10 px-5 lg:pt-[60px] pt-10 pb-10">
             <div>
                 <div>
-                    <h1 class="2xl:text-4xl text-2xl font-bold leading-10 ">Protection des données </h1>
+                    <h1 class="lg:text-4xl text-2xl  lg:leading-10 leading-8 font-bold text-[#333333] ">Protection des données </h1>
                     <div class="">
-                        <p class="text-[#657381] 2xl:text-base text-xs font-normal pt-4">
+                        <p class="lg:text-base text-xs leading-5 font-normal text-[#333333] pt-4">
                             En application de la Loi fédérale sur la protection des données (LPD), nous avons la
                             responsabilité du traitement de vos données personnelles, regroupées dans un programme «
                             fichier
@@ -20,8 +20,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="pt-6">
-                    <p class="2xl:text-base text-xs font-normal text-[#657381] ">
+                <div class="pt-6 ">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333] ">
                         Dans le cadre de notre activité, nous vous informons que nous ne transmettons vos données qu’à
                         des
                         tiers nommés destinataires de données qui sont principalement des assureurs (appel d’offres) et
@@ -35,7 +35,7 @@
                     </p>
                 </div>
                 <div class="pt-6">
-                    <p class="2xl:text-base text-xs font-normal text-[#657381] ">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333] ">
                         Pour tout mandat signé avec Unigesta par l’intermédiaire d’un de nos sous-traitants vos
                         données
                         seront traitées par Unigesta selon le procédé ci-dessus mais nous ne pouvons pas être tenus
@@ -43,7 +43,7 @@
                     </p>
                 </div>
                 <div>
-                    <p class="2xl:text-base text-xs font-normal text-[#657381] pt-4">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333] pt-4">
                         Conformément à l’art. 3 de l’Ordonnance sur la protection des données (OPDo), des mesures
                         nécessaires techniques et organisationnelles appropriées ont été prises afin de garantir la
                         conservation des données afin de protéger au mieux la confidentialité de vos données numériques.
@@ -59,20 +59,20 @@
                     </p>
                 </div>
                 <div class="pt-6">
-                    <p class="2xl:text-base text-xs font-normal text-[#657381] ">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">
                         Le mandant s’engage à informer Unigesta de toutes modifications des données personnelles afin
                         de
                         permettre une bonne gestion du mandat de conseil et gestion en assurances.
                     </p>
                 </div>
                 <div class="pt-6">
-                    <p class="2xl:text-base text-xs font-normal text-[#657381] ">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333] ">
                         Dès la fin d’un mandat, les données sont conservées pendant une durée légale de dix ans (plus
                         longue selon les situations concernées).
                     </p>
                 </div>
                 <div class="pt-6">
-                    <p class="2xl:text-base text-xs font-normal text-[#657381]">
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">
                         Vous avez néanmoins le droit d’accès à votre « fichier client », en demander la modification ou
                         la suppression dans les limites prévues par la loi.
                     </p>

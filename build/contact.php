@@ -7,12 +7,12 @@
         class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[337px] h-[220px]">
         <div class="text-center text-white 2xl:py-20 py-10 2xl:px-4 lg:px-10 px-5">
             <div>
-                <h1 class="2xl:text-[58px]  text-2xl 2xl:leading-[66px] leading-7 font-bold text-[#192634]">
+                <h1 class="lg:text-3xl  md:text-3xl text-2xl leading-9 font-bold text-[#333333]">
                     Contactez-nous
                 </h1>
             </div>
             <div class="2xl:pt-5 pt-3">
-                <p class="2xl:text-base  text-xs 2xl:leading-7  md:leading-6 leading-5 font-normal text-[#657381]">
+                <p class="text-xl lg:leading-7  leading-6 font-normal text-[#333333]">
                     Prêt à discuter de vos besoins d'assurance ? Notre équipe d'experts est là pour vous fournir des<br
                         class="lg:block hidden">
                     conseils personnalisés et une expertise adaptée à votre situation.
@@ -23,45 +23,45 @@
     <!-- end hero section -->
 
     <!-- Demande d'offre ou d'information    section -->
-    <section class="w-full bg-white 2xl:px-36 lg:px-10 px-5 py-12">
+    <section class="w-full bg-white 2xl:px-36 lg:px-10 px-5 lg:pt-[60px] pt-10 lg:pb-[60px] pb-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
-            <div class="bg-white 2xl:px-8 px-4 pt-8 rounded-2xl shadow 2xl:pb-28 lg:pb-4">
-                <h2 class="2xl:text-xl text-lg font-bold leading-8">Demande d'offre ou d'information</h2>
+            <div class="bg-white lg:p-8 p-6 rounded-lg shadow ">
+                <h2 class="lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">Demande d'offre ou d'information</h2>
 <form action="send.php" method="POST" class="space-y-5">
     <div class="grid grid-cols-2 gap-5">
         <div>
-            <label class="block text-xs font-normal leading-3 pt-7 pb-3">Prénom</label>
+            <label class="block lg:text-base text-xs leading-5 font-normal pt-7 pb-3 text-[#333333]">Prénom</label>
             <input type="text" name="first_name"
                 class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-3 py-3 " required>
         </div>
         <div>
-            <label class="block text-xs font-normal leading-3 pt-7 pb-3">Nom de famille</label>
+            <label class="block lg:text-base text-xs leading-5 font-normal pt-7 pb-3 text-[#333333]">Nom de famille</label>
             <input type="text" name="last_name"
                 class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-3 py-3 " required>
         </div>
     </div>
 
     <div>
-        <label class="block text-xs font-normal leading-3 pt-7">Adresse e-mail</label>
+        <label class="block lg:text-base text-xs leading-5 font-normal pt-7 text-[#333333]">Adresse e-mail</label>
         <input type="email" name="email"
             class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3" required>
     </div>
 
     <div>
-        <label class="block text-xs font-normal pt-7">Téléphone</label>
+        <label class="block lg:text-base text-xs leading-5 font-normal pt-7 text-[#333333]">Téléphone</label>
         <input type="tel" name="phone"
             class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3">
     </div>
 
     <div>
-        <label class="block text-xs font-normal leading-3 pt-7">Objet du message</label>
+        <label class="block lg:text-base text-xs leading-5 font-normal pt-7 text-[#333333]">Objet du message</label>
         <textarea name="message" rows="4" placeholder="Décrivez votre demande ou vos besoins spécifiques."
             class="w-full bg-[#FCFCFC] border border-[#E9E7E2] rounded-md px-4 py-2 mt-3" required></textarea>
     </div>
 
     <button type="submit"
-        class="w-full bg-[#D7B242] text-black text-xs font-normal leading-5 py-3 rounded-md flex items-center justify-center gap-2 mt-6">
+        class="w-full bg-[#D7B242] text-[#333333] lg:text-base text-xs leading-5 font-normal py-3 rounded-md flex items-center justify-center gap-2 mt-6">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M22 2L11 13"></path>
             <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
@@ -75,15 +75,17 @@
                 <div class="">
                     <div class="flex gap-4 ">
                         <div>
-                            <img src="./assets/img/location.png" class="2xl:w-full md:w-10 w-11" alt="">
+                     <div class="bg-[#D7B242] rounded-full lg:p-3 p-2">
+            <i class="fa-solid fa-location-dot text-[#333333] text-2xl"></i>
+            </div>
                         </div>
                         <div>
                             <div>
-                                <h1 class="2xl:text-base  lg:text-base text-base 2xl:leading-7 leading-5 font-bold">
+                                <h1 class="lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">
                                     Adresse</h1>
                             </div>
                             <div class="pt-2">
-                                <p class="2xl:text-sm text-xs 2xl:leading-6 leading-5 font-normal">
+                                <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">
                                    Rue de la Filature
                   42
                   <br class="lg:block md:block hidden">
@@ -126,17 +128,19 @@
                     </div> -->
                     <div class="flex gap-4 pt-8">
                         <div>
-                            <img src="./assets/img/clockq.png" class="2xl:w-full lg:w-10 md:w-10 w-12" alt="">
+                           <div class="bg-[#D7B242] rounded-full lg:p-3 p-2">
+            <i class="fa-regular fa-clock text-[#333333] text-2xl"></i>
+            </div>
                         </div>
                         <div>
                             <div>
-                                <h1 class="2xl:text-base lg:text-base text-base 2xl:leading-7 leading-5 font-bold ">
+                                <h1 class="lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">
                                     Horaires d'ouverture</h1>
                             </div>
                             <div class="pt-2">
-                                <p class="2xl:text-sm  text-xs 2xl:leading-6 leading-5 font-normal">
+                                <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">
                                    Lundi - Vendredi :
-                  8h30 - 17h00<br class="xl:block md:block hidden">
+                  8h30 - 17h00<br class="xl:block md:block  ">
                   Samedi : Sur rendez-vous
                             </div>
                         </div>

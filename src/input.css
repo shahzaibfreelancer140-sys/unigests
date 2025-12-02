@@ -4,41 +4,53 @@
 
 
 /* Floating WhatsApp Button */
-  .whatsapp-float {
-    background-color: #25D366;
-    color: white;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    font-size: 28px;
-    text-decoration: none;
-    transition: transform 0.3s ease-in-out;
-    z-index: 100;
+.whatsapp-float {
+  background-color: #25D366;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  z-index: 100;
 }
 
 .whatsapp-float:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
 .whatsapp-float img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 
 @font-face {
-  font-family: Poppins;
-  src: url(/build/assets/fonts/Poppins-Regular.ttf);
+  font-family: Satoshi;
+  src: url(/build/assets/fonts/Satoshi-Regular.otf);
+}
+
+h1,
+h2,
+h3,
+a,
+button,
+p,
+li,
+span{
+  font-family: Satoshi;
 }
 
 body {
-  font-family: Poppins;
+  font-family: 'Manrope', sans-serif;
 }
+
 
 
 @keyframes scrollSlider {
@@ -73,3 +85,10 @@ body {
     transform: translateX(calc(-100% + 100vw));
   }
 }
+
+/* @media (max-width: 375px) {
+  .logo {
+    width: 94px !important;
+  }
+
+} */

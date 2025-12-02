@@ -8,12 +8,12 @@
         class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[337px] h-[220px]">
         <div class="text-center  2xl:py-20 py-14 2xl:px-4 lg:px-10 px-5">
             <div>
-                <h1 class="2xl:text-[58px]  text-2xl 2xl:leading-[66px] leading-7 font-bold text-[#192634]">
+                <h1 class="lg:text-3xl  md:text-3xl text-2xl leading-9 font-bold text-[#333333]">
                     Nos Services
                 </h1>
             </div>
             <div class="2xl:pt-5 pt-3">
-                   <p class="2xl:text-sm text-xs 2xl:leading-7 md:leading-6 leading-7 font-normal">Nous proposons une gamme
+                   <p class="text-xl 2xl:leading-7  leading-6 font-normal text-[#333333]">Nous proposons une gamme
             complète de services dans le domaine de l’assurance tant
             pour les
             entreprises que <br class="lg:block hidden"> pour les privés afin de répondre avec précision à vos besoins
@@ -375,25 +375,30 @@
     <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 bg-white">
       <!-- <div class="text-center">
         <div>
-          <h1 class="2xl:text-[28px] text-2xl leading-9 font-bold">Nos Services</h1>
+          <h1 class="lg:text-3xl  md:text-3xl text-2xl leading-9 font-bold">Nos Services</h1>
         </div>
         <div class="pt-5">
-       
+          <p class="text-xl lg:leading-7  leading-6 font-normal">Nous proposons une gamme
+            complète de services dans le domaine de l’assurance tant
+            pour les
+            entreprises que <br class="lg:block hidden"> pour les privés afin de répondre avec précision à vos besoins
+            et à votre situation personnelle.
+          </p>
         </div>
       </div> -->
       <div
-        class="lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 md:grid md:grid-cols-2 grid grid-cols-1 2xl:gap-8 xl:gap-7 gap-4 2xl:pt-16 pt-8">
+        class="lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 md:grid md:grid-cols-2 grid grid-cols-1 2xl:gap-8 xl:gap-7 gap-4 lg:pt-[60px] pt-10">
         <div
-          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          class="inline-block lg:p-8 p-6 bg-[#FFFFFF] border-2 border-[#E9E7E2] rounded-lg flex">
           <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
             <div>
-              <div>
-                <img src="./assets/img/shield.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
+              <div class="bg-[#FBF8ED] rounded-full lg:p-3 p-2 ">
+                <i class="fa-solid fa-shield text-[#D7B242] text-2xl"></i>
               </div>
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de
+                <h1 class=" lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">Assurances de
                   choses
                 </h1>
               </div>
@@ -403,7 +408,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Commerce</p>
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Commerce</p>
                   </div>
                 </div>
                 <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
@@ -411,7 +416,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Bâtiment</p>
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Bâtiment</p>
                   </div>
                 </div>
                 <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
@@ -419,7 +424,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Ménage</p>
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Ménage</p>
                   </div>
                 </div>
                 <div class="flex 2xl:items-end lg:items-end items-center 2xl:gap-5 gap-2 2xl:pt-4 pt-1">
@@ -427,7 +432,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Véhicule
+                    <p class="lg:text-base text-xs leading-5font-normal text-[#333333]">Véhicule
                       à moteur
                     </p>
                   </div>
@@ -437,8 +442,8 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Véhicule
-                      nautique</p>
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Véhicule
+                      nautique</p> 
                   </div>
                 </div>
               </div>
@@ -446,16 +451,16 @@
           </div>
         </div>
         <div
-          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          class="inline-block lg:p-8 p-6 bg-[#FFFFFF] border-2 border-[#E9E7E2] rounded-lg flex">
           <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
             <div>
-              <div>
-                <img src="./assets/img/tab.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
-              </div>
+              <div class="bg-[#FBF8ED] rounded-full lg:p-3 p-2">
+            <i class="fa-regular fa-building text-[#D7B242] text-2xl"></i>
+            </div>
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de
+                <h1 class="lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">Assurances de
                   patrimoine
                 </h1>
               </div>
@@ -465,7 +470,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">RC professionnelle</p>
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">RC professionnelle</p>
                   </div>
                 </div>
                 <div class="flex 2xl:items-end lg:items-end items-center  2xl:gap-5 gap-2 2xl:pt-4 pt-1">
@@ -473,7 +478,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">RC privée
+                    <p class="lg:text-base text-xs leading-5font-normal text-[#333333]">RC privée
                     </p>
                   </div>
                 </div>
@@ -482,7 +487,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">RC D&O
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">RC D&O
                     </p>
                   </div>
                 </div>
@@ -491,7 +496,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Protection juridique
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Protection juridique
                     </p>
                   </div>
                 </div>
@@ -500,16 +505,16 @@
           </div>
         </div>
         <div
-          class="inline-block 2xl:px-10 px-5 2xl:py-10 py-5 bg-[#FFFFFF]rounded-lg border-2 border-[#E9E7E2] rounded-lg flex">
+          class="inline-block lg:p-8 p-6 bg-[#FFFFFF] border-2 border-[#E9E7E2] rounded-lg flex">
           <div class="flex 2xl:gap-4 lg:gap-4 md:gap-4 gap-2">
             <div>
-              <div>
-                <img src="./assets/img/dil.png" class="2xl:w-14 xl:w-12 md:w-10  w-8" alt="">
-              </div>
+              <div class="bg-[#FBF8ED] rounded-full lg:p-3 p-2">
+            <i class="fa-regular fa-heart text-[#D7B242] text-2xl"></i>
+            </div>
             </div>
             <div>
               <div>
-                <h1 class="2xl:text-2xl lg:text-sm text-base 2xl:leading-8 leading-7 font-bold">Assurances de personnes
+                <h1 class="lg:text-base text-base lg:leading-8 leading-7 font-bold text-[#333333]">Assurances de personnes
 
                 </h1>
               </div>
@@ -519,7 +524,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">LAA
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">LAA
                     </p>
                   </div>
                 </div>
@@ -528,7 +533,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Perte de gain maladie
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Perte de gain maladie
                     </p>
                   </div>
                 </div>
@@ -537,7 +542,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Accident individuel
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Accident individuel
 
                     </p>
                   </div>
@@ -547,7 +552,7 @@
                     <i class="fa-solid fa-circle text-[#D7B242] text-[8px]"></i>
                   </div>
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">Assurance maladie
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Assurance maladie
                     </p>
                   </div>
                 </div>
@@ -558,7 +563,7 @@
                   </div>
                  
                     <div class="2xl:pt-2 lg:pt-1 pt-1">
-                    <p class="2xl:text-base text-xs leading-5 font-normal">LPP (2ème Pillier)
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">LPP (2ème Pillier)
                     </p>
                   </div>
                 </div>
@@ -573,7 +578,7 @@
                   </div>
                  
                   <div>
-                    <p class="2xl:text-base text-xs leading-5 font-normal">3ème Pillier A & B
+                    <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">3ème Pillier A & B
                     </p>
                   </div>
                 </div>
@@ -583,7 +588,7 @@
                       <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-base text-xs leading-5 font-normal">Prévoyances
+                      <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Prévoyances
                         privées
                       </p>
                     </div>
@@ -593,7 +598,7 @@
                       <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-base text-xs leading-5 font-normal">Épargne</p>
+                      <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Épargne</p>
                     </div>
                   </div>
                   <div class="flex items-center gap-3 2xl:pt-2 lg:pt-1 pt-1">
@@ -601,7 +606,7 @@
                       <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-base text-xs leading-5 font-normal">Décès</p>
+                      <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Décès</p>
                     </div>
                   </div>
                   <div class="flex items-center gap-3 2xl:pt-2 lg:pt-1 pt-1">
@@ -609,7 +614,7 @@
                       <i class="fa-regular fa-circle text-[#D7B242] text-[8px]"></i>
                     </div>
                     <div>
-                      <p class="2xl:text-base text-xs leading-5 font-normal">Rentes</p>
+                      <p class="lg:text-base text-xs leading-5 font-normal text-[#333333]">Rentes</p>
                     </div>
                   </div>
 
@@ -626,15 +631,15 @@
 
     <!-- Nos Partenaires    section -->
     <section>
-        <div class="2xl:pt-20 xl:pt-20 pt-16 pb-20 2xl:px-36 lg:px-10 px-5 bg-[#fcfcfc]">
+        <div class="lg:pt-[60px] pt-10 pb-10 2xl:px-36 lg:px-10 px-5 bg-[#fcfcfc]">
             <div class="text-center">
                 <div>
-                    <h1 class="2xl:text-3xl lg:text-2xl md:text-3xl text-lg 2xl:leading-9 leading-6 font-bold">
+                    <h1 class="lg:text-3xl  md:text-3xl text-2xl leading-9 font-bold text-[#333333]">
                         Nos Partenaires
                     </h1>
                 </div>
                 <div class="2xl:pt-5 pt-3">
-                    <p class="2xl:text-sm text-xs 2xl:leading-7 leading-5 font-normal text-[#657381]">Nous sélectionnons
+                    <p class="text-xl lg:leading-7  leading-6 font-normal text-[#333333]">Nous sélectionnons
                         les meilleurs partenaires afin de <br class="lg:block hidden"> vous offrir des solutions
                         fiables,
                         innovantes et adaptées à vos besoins.
@@ -644,42 +649,42 @@
             <div
                 class="2xl:grid 2xl:grid-cols-4 xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 grid grid-cols-1 gap-6 pt-12">
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Patrimonia</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Patrimonia</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Tellco</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Tellco</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Rentes genevoises</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Rentes genevoises</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Solida assurances</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Solida assurances</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Orgeco fiduciaire SA</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Orgeco fiduciaire SA</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9 text-center">
-                    <a href="" class="text-[#657381] text-xs leading-5 font-normal">CIL SA</a>
+                    <a href="" class="text-[#333333] lg:text-base text-xs leading-5 font-normal">CIL SA</a>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Assura</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Assura</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Nautima </p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Nautima </p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">CAP assurances
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">CAP assurances
                     </p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Fortuna
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Fortuna
                     </p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Protecta</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Protecta</p>
                 </div>
                 <div class="bg-white border-2 border-[#E9E7E2] rounded-lg 2xl:py-5 py-3 2xl:px-28 px-9">
-                    <p class="text-[#657381] text-xs leading-5 font-normal text-center">Orion</p>
+                    <p class="text-[#333333] lg:text-base text-xs leading-5 font-normal text-center">Orion</p>
                 </div>
             </div>
         </div>
@@ -701,18 +706,18 @@
     <div class="2xl:px-36 lg:px-10 px-5 2xl:pt-20 pt-10 2xl:pb-20 pb-10 overflow-hidden">
       <div class="slider flex items-center justify-between 2xl:gap-60 lg:gap-20 gap-12">
         <div><img src="./assets/img/resize-17597354622113789331generali.jpg" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Zurich.webp" class="2xl:w-80 md:w-48 w-44" alt=""></div>
+        <div><img src="./assets/img/Zurich.png" class="2xl:w-80 md:w-44 w-36" alt=""></div>
         <div><img src="./assets/img/helvetia.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Assura.webp" class="2xl:w-60 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Assura.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
         <div><img src="./assets/img/Baloise.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
         <div><img src="./assets/img/CAP_Logo_Web_NEW.png" class="2xl:w-44 md:w-32 w-28" alt=""></div>
         <div><img src="./assets/img/CIL.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Nautima.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Orgeco.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Orion.png" class="2xl:w-56 md:w-32 w-28" alt=""></div>
+        <div><img src="./assets/img/Nautima.png" class="2xl:w-60 md:w-36 w-32 mt-3" alt=""></div>
+        <div><img src="./assets/img/Orgeco.png" class="2xl:w-60 md:w-32 w-28 mt-2" alt=""></div>
+        <div><img src="./assets/img/Orion.png" class="2xl:w-56 md:w-28 w-28" alt=""></div>
         <div><img src="./assets/img/Patrimonia.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/Protekta.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>
-        <div><img src="./assets/img/resize-1759735627560705567VaudoiseAssurances4.jpg" class="2xl:w-60 md:w-32 w-28"
+        <div><img src="./assets/img/Protekta.png" class="2xl:w-60 md:w-24 w-28 lg:mb-2 mb-1" alt=""></div>
+        <div><img src="./assets/img/resize-1759735627560705567VaudoiseAssurances4.jpg" class="2xl:w-60 md:w-32 w-28 mb-2"
             alt="">
         </div>
         <div><img src="./assets/img/logo-groupe-mutuel.png" class="2xl:w-60 md:w-32 w-28" alt=""></div>

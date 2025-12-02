@@ -4,7 +4,7 @@
   "main": "tailwind.config.js",
   "description": "This website is developed by RISS",
   "scripts": {
-    "tailwind": "npx tailwindcss -i src/input.css -o build/assets/css/style.css --minify --watch",
+    "tailwind": "npx tailwindcss -i src/input.css -o build/assets/css/style.css --watch",
     "prettier": "npx prettier --write 'build/**/*.{html,css,js,json,md}'",
     "minify:js": "terser src/scripts.js -o build/assets/js/scripts.min.js --compress --mangle"
   },
